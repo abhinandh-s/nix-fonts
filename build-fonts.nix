@@ -43,4 +43,10 @@
     };
 in
   # Generate a derivation for each font defined in the JSON
-  builtins.map buildFont fontInfo.fonts
+  #  builtins.map buildFont fontInfo.fonts
+
+builtins.listToAttrs (map (font: {
+  name = font.name;
+  value = buildFont font;
+}) fontInfo.fonts)
+
