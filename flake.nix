@@ -6,7 +6,7 @@
     let
       system = "x86_64-linux";
       pkgs = import nixpkgs { inherit system; };
-      fonts = import ./build-fonts.nix { inherit (pkgs) stdenvNoCC; };
+      fonts = import ./build-fonts.nix { inherit pkgs; };
     in {
       packages = fonts;
 
