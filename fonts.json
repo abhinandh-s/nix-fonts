@@ -1,0 +1,26 @@
+{
+  "fonts": [
+    {
+      "name": "commit-mono",
+      "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/CommitMono.tar.xz",
+      "hash": "sha256-wAvsA4hUyanraSnUNnv4TJxPlmDFBFbqjO0jfP9dlM4=",
+      "license": "ofl",
+      "description": "Commit Mono is a programming typeface with great ligatures."
+    },
+    {
+      "name": "lora",
+      "url": "https://github.com/cyrealtype/lora-cyrillic/releases/download/v3.005/lora-v3.005.zip",
+      "hash": "sha256-K4mCusuzrqZgY+Xs1zWALSNuXUGF2plHbfGV99g2UGQ=",
+      "license": "ofl",
+      "description": "Lora is a well-balanced contemporary serif with roots in calligraphy."
+    },
+    {
+      "name": "eb-garamond",
+      "url": "https://github.com/georgd/EB-Garamond/releases/download/nightly/EBGaramond.zip",
+      "hash": "sha256-IuHbUrtLP9RpcXKAigaaex6jNv6LPopfYtQ+3isD0DI=",
+      "license": "ofl",
+      "description": "This project aims at providing a free version of the Garamond types, based on the Designs of the Berner specimen from 1592."
+    }
+  ]
+}
+
