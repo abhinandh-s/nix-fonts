@@ -1,6 +1,13 @@
 {
   "fonts": [
     {
+      "name": "Iosevka",
+      "url": "https://github.com/be5invis/Iosevka/releases/download/v33.2.1/PkgTTF-Unhinted-Iosevka-33.2.1.zip",
+      "hash": "sha256-ruggtjFuW8yX2kWbDjbzd6AV8NPlUAv0Vm6ra+buRiM=",
+      "license": "ofl",
+      "description": "Iosevka [ˌjɔˈseβ.kʰa] is an open-source, sans-serif + slab-serif, monospace + quasi‑proportional typeface family, designed for writing code, using in terminals, and preparing technical documents."
+    },
+        {
       "name": "commit-mono",
       "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/CommitMono.tar.xz",
       "hash": "sha256-wAvsA4hUyanraSnUNnv4TJxPlmDFBFbqjO0jfP9dlM4=",
