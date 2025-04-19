@@ -1,33 +1,48 @@
 {
-  "fonts": [
-    {
-      "name": "Iosevka",
-      "url": "https://github.com/be5invis/Iosevka/releases/download/v33.2.1/PkgTTF-Unhinted-Iosevka-33.2.1.zip",
-      "hash": "sha256-ruggtjFuW8yX2kWbDjbzd6AV8NPlUAv0Vm6ra+buRiM=",
-      "license": "ofl",
-      "description": "Iosevka [ˌjɔˈseβ.kʰa] is an open-source, sans-serif + slab-serif, monospace + quasi‑proportional typeface family, designed for writing code, using in terminals, and preparing technical documents."
-    },
+    "fonts": [
         {
-      "name": "commit-mono",
-      "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/CommitMono.tar.xz",
-      "hash": "sha256-wAvsA4hUyanraSnUNnv4TJxPlmDFBFbqjO0jfP9dlM4=",
-      "license": "ofl",
-      "description": "Commit Mono is a programming typeface with great ligatures."
-    },
-    {
-      "name": "lora",
-      "url": "https://github.com/cyrealtype/lora-cyrillic/releases/download/v3.005/lora-v3.005.zip",
-      "hash": "sha256-K4mCusuzrqZgY+Xs1zWALSNuXUGF2plHbfGV99g2UGQ=",
-      "license": "ofl",
-      "description": "Lora is a well-balanced contemporary serif with roots in calligraphy."
-    },
-    {
-      "name": "eb-garamond",
-      "url": "https://github.com/georgd/EB-Garamond/releases/download/nightly/EBGaramond.zip",
-      "hash": "sha256-IuHbUrtLP9RpcXKAigaaex6jNv6LPopfYtQ+3isD0DI=",
-      "license": "ofl",
-      "description": "This project aims at providing a free version of the Garamond types, based on the Designs of the Berner specimen from 1592."
-    }
-  ]
+            "name": "Iosevka",
+            "url": "https://github.com/be5invis/Iosevka/releases/download/v33.2.1/PkgTTF-Unhinted-Iosevka-33.2.1.zip",
+            "hash": "sha256-ruggtjFuW8yX2kWbDjbzd6AV8NPlUAv0Vm6ra+buRiM=",
+            "license": "ofl",
+            "description": "Iosevka [ˌjɔˈseβ.kʰa] is an open-source, sans-serif + slab-serif, monospace + quasi‑proportional typeface family, designed for writing code, using in terminals, and preparing technical documents."
+        },
+         {
+            "name": "IosevkaEtoile",
+            "url": "https://github.com/be5invis/Iosevka/releases/download/v33.2.1/PkgTTF-IosevkaEtoile-33.2.1.zip",
+            "hash": "sha256-Olri03j1xBKN+1v6aKZrjfo+74UwwjVEZs0aeEBmsnE=",
+            "license": "ofl",
+            "description": "Iosevka [ˌjɔˈseβ.kʰa] is an open-source, sans-serif + slab-serif, monospace + quasi‑proportional typeface family, designed for writing code, using in terminals, and preparing technical documents."
+        },
+        {
+            "name": "IosevkaAile",
+            "url": "https://github.com/be5invis/Iosevka/releases/download/v33.2.1/PkgTTF-IosevkaAile-33.2.1.zip",
+            "hash": "sha256-vpV2pXw3SYc8tsE9KeGVeHpEEV+9eBH+3leOIiLc0rM=",
+            "license": "ofl",
+            "description": "Iosevka [ˌjɔˈseβ.kʰa] is an open-source, sans-serif + slab-serif, monospace + quasi‑proportional typeface family, designed for writing code, using in terminals, and preparing technical documents."
+        },
+
+        {
+            "name": "commit-mono",
+            "url": "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/CommitMono.tar.xz",
+            "hash": "sha256-wAvsA4hUyanraSnUNnv4TJxPlmDFBFbqjO0jfP9dlM4=",
+            "license": "ofl",
+            "description": "Commit Mono is a programming typeface with great ligatures."
+        },
+        {
+            "name": "lora",
+            "url": "https://github.com/cyrealtype/lora-cyrillic/releases/download/v3.005/lora-v3.005.zip",
+            "hash": "sha256-K4mCusuzrqZgY+Xs1zWALSNuXUGF2plHbfGV99g2UGQ=",
+            "license": "ofl",
+            "description": "Lora is a well-balanced contemporary serif with roots in calligraphy."
+        },
+        {
+            "name": "eb-garamond",
+            "url": "https://github.com/georgd/EB-Garamond/releases/download/nightly/EBGaramond.zip",
+            "hash": "sha256-IuHbUrtLP9RpcXKAigaaex6jNv6LPopfYtQ+3isD0DI=",
+            "license": "ofl",
+            "description": "This project aims at providing a free version of the Garamond types, based on the Designs of the Berner specimen from 1592."
+        }
+    ]
 }
 
