@@ -1,18 +1,16 @@
-
 {
-  description = "Nerd Fonts flake";
+  description = "A Simple Fonts flake";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
   };
 
-  outputs = { nixpkgs, ... }: let
+  outputs = {nixpkgs, ...}: let
     system = "x86_64-linux";
-    pkgs = import nixpkgs { inherit system; };
+    pkgs = import nixpkgs {inherit system;};
 
-    fonts = import ./build-fonts.nix { inherit pkgs; };
+    fonts = import ./default.nix {inherit pkgs;};
   in {
     packages = fonts;
   };
 }
-
